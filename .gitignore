@@ -1,5 +1,19 @@
->>private keys - cat ~/.ssh/id_ed25519.pub
+# Secrets and local identifiers to never commit
+.env
+.env.*
+!.env.example
+.aws/
+.kube/
+*.kubeconfig.
+kubeconfig*
+*.pem
+*.key
+*.local.*
+inventory.local.env
+*.save
+*.swp
 
->>naming convention for real acc IPs and IDs - <filename>.local.<filetype>
-
->>raw evidence
+# Raw evidence; publish only sanitized copies
+evidence/raw/
+reports/raw/
+*.log
