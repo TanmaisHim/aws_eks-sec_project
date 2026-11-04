@@ -12,6 +12,8 @@ kubeconfig*
 inventory.local.env
 *.save
 *.swp
+*CloudTrail*
+
 
 # Raw evidence; publish only sanitized copies
 evidence/raw/
